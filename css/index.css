@@ -15,18 +15,23 @@
 }
 
 .logo {
-  width: 45%;
+  width: 40%;
   height: 80px;
   float: left;
   background-color: rgb(25, 28, 77);
   font-family: 'Pacifico', cursive;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
+}
+
+#code {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .logo #name {
     color: white;
     font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .logo p {
@@ -34,7 +39,6 @@
   color: white;
   font-weight: 400;
   padding-left: 5%;
-  padding-bottom: 2%;
   text-transform: capitalize;
 }
 
@@ -70,7 +74,7 @@ a {
 }
 
 nav {
-  width: 55%;
+  width: 60%;
   height: 80px;
   float: left;
   background-color: rgb(25, 28, 77);
@@ -80,9 +84,8 @@ nav ul li {
   list-style: none;
   color: #fefefe;
   float: left;
-  font-size: 19px;
-  font-size: 22px;
-  padding: 4% 3.5%;
+  font-size: 15px;
+  padding: 3% 2.5%;
   transition: all 0.5s ease;
 }
 
@@ -93,7 +96,7 @@ nav ul li:hover {
 }
 
 nav ul li a:hover {
-    color: yellow;
+    color: whitesmoke;
 }
 
 @media (max-width: 1280px) {
