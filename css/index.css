@@ -10,6 +10,10 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+body {
+  background-color: rgb(10, 25, 47);
+}
+
 .nav {
   background-color: rgb(25, 28, 77);
 }
