@@ -230,6 +230,41 @@ nav ul li a:hover {
   background-color:rgb(25, 82, 121);
 }
 
+/* Experiences */
+
+.card-customize {
+  background-color: rgb(10, 25, 47);
+  height: 670px;
+}
+
+.card-customize h4 {
+  font-weight: 600;
+}
+
+.card-customize img {
+ border-radius: 20px;
+}
+
+.bg-card {
+  background-color: #215191;
+}
+
+.description_company {
+  font-size: 15px;
+  color: rgb(187, 193, 195);
+}
+
+.card-customize {
+  box-shadow: 1px 6px 8px 4px rgba(255, 255, 255, 0.13);
+  -webkit-box-shadow: 1px 6px 8px 4px rgba(255, 255, 255, 0.13);
+  -moz-box-shadow: 1px 6px 8px 4px rgba(255, 255, 255, 0.13);
+}
+
+.card-customize:hover {
+  box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
+  -webkit-box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
+  -moz-box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
+}
 
 /* media queries */
 
