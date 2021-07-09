@@ -219,15 +219,15 @@ nav ul li a:hover {
 }
 
 .bg-node {
-  background-color:rgb(46, 37, 54);
+  background-color: rgb(46, 37, 54);
 }
 
 .bg-python {
-  background-color:rgb(14, 90, 33);
+  background-color: rgb(14, 90, 33);
 }
 
 .bg-flutter {
-  background-color:rgb(25, 82, 121);
+  background-color: rgb(25, 82, 121);
 }
 
 /* Experiences */
@@ -242,7 +242,7 @@ nav ul li a:hover {
 }
 
 .card-customize img {
- border-radius: 20px;
+  border-radius: 20px;
 }
 
 .bg-card {
@@ -296,7 +296,6 @@ nav ul li a:hover {
   -webkit-box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
   -moz-box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
 }
-
 
 /* media queries */
 
