@@ -4,11 +4,10 @@
     date: Wed Jul 7 2021
 */
 
-
 /*  navigation styles */
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 body {
   background-color: rgb(10, 25, 47);
@@ -23,7 +22,7 @@ body {
   height: 80px;
   float: left;
   background-color: rgb(25, 28, 77);
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   margin-bottom: 1px;
 }
 
@@ -33,9 +32,9 @@ body {
 }
 
 .logo #name {
-    color: white;
-    font-size: 30px;
-    margin-bottom: 2px;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 2px;
 }
 
 .logo p {
@@ -100,11 +99,10 @@ nav ul li:hover {
 }
 
 nav ul li a:hover {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 @media (max-width: 1280px) {
-
   .logo p {
     font-size: 38px;
     padding-left: 8%;
@@ -143,7 +141,6 @@ nav ul li a:hover {
   }
 }
 
-
 /* homepage styles */
 
 .my_name {
@@ -175,7 +172,7 @@ nav ul li a:hover {
 }
 
 .fa-facebook-square {
-  background-color: #1877F2;
+  background-color: #1877f2;
 }
 
 .fa-google {
@@ -183,7 +180,7 @@ nav ul li a:hover {
 }
 
 .fa-twitter {
-  background-color: rgba(29,161,242,1.00);
+  background-color: rgba(29, 161, 242, 1);
 }
 
 .fa-linkedin {
@@ -199,7 +196,10 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
+/* media queries */
+
 @media (max-width: 768px) {
+  /* navigation bar */
   .logo {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.1);
@@ -234,5 +234,19 @@ nav ul li a:hover {
     padding: 1% 0%;
     text-align: center;
   }
+
+  /* homepage section */
+  .my_name {
+    font-size: 20px;
+  }
+  .passport {
+    height: auto;
+    width: 340px;
+  }
 }
 
+/* @media (max-width: 1380px) {
+  .my_name {
+    font-size: 25px;
+  }
+} */
