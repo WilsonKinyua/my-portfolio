@@ -8,7 +8,7 @@
 
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
 
 body {
   background-color: rgb(10, 25, 47);
@@ -103,8 +103,6 @@ nav ul li a:hover {
   color: whitesmoke;
 }
 
-
-
 /* homepage styles */
 
 .my_name {
@@ -170,7 +168,7 @@ nav ul li a:hover {
 }
 
 .headings {
-  font-family: 'Merienda', cursive;
+  font-family: "Merienda", cursive;
   /* font-size: 50px; */
 }
 
@@ -180,7 +178,38 @@ nav ul li a:hover {
   text-transform: capitalize;
 }
 
+/* .lang {
+
+} */
+
+.tech_icons {
+  list-style: none;
+}
+
+.tech_icons_list {
+  display: inline-block;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.tech_icons_list i:hover,
+.tech_icons_list p:hover {
+  color: #64072e;
+}
+
+.tech_icons_list i {
+  font-size: 45px;
+  color: #868e96;
+}
+
+.tech_icons_list p {
+  font-size: 11px;
+  color: #868e96;
+  margin-top: 10px;
+}
+
 /* media queries */
+
 @media (max-width: 1280px) {
   .logo p {
     font-size: 38px;
