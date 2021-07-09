@@ -240,6 +240,7 @@ nav ul li a:hover {
     font-size: 20px;
   }
   .passport {
+    text-align: center;
     height: auto;
     width: 340px;
   }
