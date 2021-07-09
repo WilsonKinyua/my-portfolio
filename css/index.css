@@ -8,6 +8,7 @@
 
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
 
 body {
   background-color: rgb(10, 25, 47);
@@ -102,44 +103,7 @@ nav ul li a:hover {
   color: whitesmoke;
 }
 
-@media (max-width: 1280px) {
-  .logo p {
-    font-size: 38px;
-    padding-left: 8%;
-  }
 
-  nav ul li {
-    font-size: 19px;
-    padding: 4.8% 3.3%;
-  }
-}
-
-@media (max-width: 1024px) {
-  * {
-    font-size: 17px;
-  }
-
-  .logo,
-  nav {
-    height: 75px;
-  }
-
-  .logo p {
-    font-size: 35px;
-    padding-left: 8%;
-    padding-top: 2%;
-  }
-
-  .logo p span {
-    font-size: 40px;
-  }
-
-  nav ul li {
-    font-size: 18px;
-    padding: 5.3% 3.5%;
-    height: auto;
-  }
-}
 
 /* homepage styles */
 
@@ -152,7 +116,7 @@ nav ul li a:hover {
 .bio {
   color: rgb(187, 193, 195);
   font-size: 20px;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .icons span i {
@@ -196,7 +160,65 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
+.passport {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.about_me {
+  max-width: 100%;
+}
+
+.headings {
+  font-family: 'Merienda', cursive;
+  /* font-size: 50px; */
+}
+
+.bio_me {
+  color: rgb(187, 193, 195);
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
 /* media queries */
+@media (max-width: 1280px) {
+  .logo p {
+    font-size: 38px;
+    padding-left: 8%;
+  }
+
+  nav ul li {
+    font-size: 19px;
+    padding: 4.8% 3.3%;
+  }
+}
+
+@media (max-width: 1024px) {
+  * {
+    font-size: 17px;
+  }
+
+  .logo,
+  nav {
+    height: 75px;
+  }
+
+  .logo p {
+    font-size: 35px;
+    padding-left: 8%;
+    padding-top: 2%;
+  }
+
+  .logo p span {
+    font-size: 40px;
+  }
+
+  nav ul li {
+    font-size: 18px;
+    padding: 5.3% 3.5%;
+    height: auto;
+  }
+}
 
 @media (max-width: 768px) {
   /* navigation bar */
@@ -237,7 +259,7 @@ nav ul li a:hover {
 
   /* homepage section */
   .my_name {
-    font-size: 20px;
+    font-size: 32px;
   }
   .passport {
     text-align: center;
