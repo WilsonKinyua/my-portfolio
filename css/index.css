@@ -266,6 +266,14 @@ nav ul li a:hover {
   -moz-box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
 }
 
+.bg-jucsa {
+  background-color: rgb(25, 82, 121);
+}
+
+.bg-comp {
+  background-color: rgb(75, 25, 121);
+}
+
 /* media queries */
 
 @media (max-width: 1280px) {
