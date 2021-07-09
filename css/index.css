@@ -178,10 +178,6 @@ nav ul li a:hover {
   text-transform: capitalize;
 }
 
-/* .lang {
-
-} */
-
 .tech_icons {
   list-style: none;
 }
@@ -205,8 +201,35 @@ nav ul li a:hover {
 .tech_icons_list p {
   font-size: 11px;
   color: #868e96;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
+
+/* proficiency */
+
+.bg-backend {
+  background-color: rgb(108, 108, 229);
+}
+
+.bg-laravel {
+  background-color: #64072e;
+}
+
+.bg-angular {
+  background-color: aquamarine;
+}
+
+.bg-node {
+  background-color:rgb(46, 37, 54);
+}
+
+.bg-python {
+  background-color:rgb(14, 90, 33);
+}
+
+.bg-flutter {
+  background-color:rgb(25, 82, 121);
+}
+
 
 /* media queries */
 
