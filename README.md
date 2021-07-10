@@ -2,7 +2,7 @@
 
 #### Created By Wilson Kinyua Muthoni on 07-07-2021
 ## Description
-Week 1 Independent Project | Portfolio Landing Page at Moringa School Prep Module. This is my portfolio which gives a well detailed Description of who i am, my hobbies passions and my inspiration in life 
+Week 1 Independent Project | Portfolio Landing Page at Moringa School Prep Module. This is my portfolio which gives a well detailed Description of who i am, my hobbies passions and my inspiration in life. It also displays services that I offer
 ## Setup/Installation Requirements
 * Git
 * Web-browser or your choice
