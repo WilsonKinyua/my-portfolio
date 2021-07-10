@@ -291,10 +291,24 @@ nav ul li a:hover {
   height: 260px;
 }
 
-.services .card:hover {
+.services .card:hover, .projects .card:hover {
   box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
   -webkit-box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
   -moz-box-shadow: 1px 6px 8px 8px rgba(255, 255, 255, 0.13);
+}
+
+/* projects */
+
+.projects .card {
+  background-color: rgb(10, 25, 47);
+  box-shadow: 1px 6px 8px 4px rgba(255, 255, 255, 0.13);
+  -webkit-box-shadow: 1px 6px 8px 4px rgba(255, 255, 255, 0.13);
+  -moz-box-shadow: 1px 6px 8px 4px rgba(255, 255, 255, 0.13);
+}
+
+.projects p {
+  font-size: 15px;
+  line-height: 25px;
 }
 
 /* media queries */
